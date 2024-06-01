@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { auth, googleProvider } from '../services/firebase'; // Corrected path
+import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { AuthContext } from '../context/AuthContext'; // Corrected path
 import 'firebase/auth'; // Import any additional firebase services you need
 import './Login.css';
