@@ -1,0 +1,144 @@
+/* Container for collaborations section */
+.collaborations-container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem 1rem 5rem 1rem; /* Adjust padding for smaller screens */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collaborations-container h2 {
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder !important;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.research-update-container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  background-color: #EE6043 !important;
+  width: 100vw;
+  margin-top: 5vw; /* Fix margin value */
+  margin-bottom: 5vw;
+}
+
+.underline {
+  width: 10%;
+  height: 4px;
+  background-color: #EE6043;
+  margin: 0 auto 4rem auto;
+}
+
+/* Carousel container */
+.carousel {
+  justify-content: center !important;
+  align-items: center !important;
+  max-width: 70vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-track-container {
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid transparent !important;
+  min-width: 300px;
+  margin: 0 1rem;
+}
+
+.carousel-slide img {
+  max-width: 10vw !important;
+  max-height: 10vh;
+}
+
+.carousel-btn {
+  background: none;
+  border: #EE6043;
+  color: #EE6043;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background: #EE6043;
+  color: white;
+}
+
+.prev-btn {
+  margin-right: 1rem;
+}
+
+.next-btn {
+  margin-left: 1rem;
+}
+
+/* Media query for tablets and below */
+@media (max-width: 768px) {
+  .collaborations-container {
+    padding: 2rem 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .research-update-container {
+    flex-direction: column; /* Stack the image and text vertically */
+    padding: 1rem;
+    height: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .carousel {
+    max-width: 90%; /* Allow carousel to take full width */
+  }
+
+  .carousel-slide {
+    min-width: 80vw; /* Adjust slide width for smaller screens */
+    margin: 0 0.5rem;
+  }
+
+  .carousel-slide img {
+    max-width: 50vw !important; /* Adjust image size */
+    max-height: 20vh; /* Adjust image height */
+  }
+
+  .carousel-btn {
+    font-size: 1.25rem; /* Adjust button size */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .collaborations-container h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .carousel-slide img {
+    max-width: 70vw !important; /* Further adjust image size */
+    max-height: 30vh; /* Adjust image height */
+  }
+
+  .carousel-btn {
+    font-size: 1.5rem; /* Further adjust button size */
+  }
+}

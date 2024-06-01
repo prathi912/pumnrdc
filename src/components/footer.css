@@ -1,0 +1,137 @@
+.footer {
+  background-color: #000b52;
+  color: white;
+  padding: 2EM 5em 1EM 5EM;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contact p {
+  font-weight: 400;
+  font-size: medium;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pu_logo {
+  width: 250px;
+  margin-right: 20vh;
+}
+
+.footer-links, .footer-contact {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-links h4, .footer-contact h4 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+  margin-bottom: 0.5rem;
+}
+
+.PUMNRDC {
+  font-size: 1.2EM;
+}
+
+.GetinTouch {
+  margin-top:0px;
+}
+
+.address p{
+  margin-top:10px;
+}
+.footer-contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: left;
+  gap: 1px !important;
+  margin-top: 1rem;
+}
+
+.footer-social-icons a {
+  color: white;
+  justify-content: left;
+  font-size: 1.8rem;
+}
+
+.footer-social-icons a:hover {
+  color: #0077b5; /* Change color on hover if desired */
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .footer-links, .footer-contact {
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .pu_logo {
+    margin-top: 20px;
+    margin-bottom: 50PX; /* Center the logo horizontally */
+    max-width: 100%; /* Ensure the logo doesn't exceed the screen width */
+  }
+
+  .footer-logo {
+    margin-bottom: 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .pu_logo {
+    margin-top: 20px;
+    margin-bottom: 50PX; /* Center the logo horizontally */
+    max-width: 100%; /* Ensure the logo doesn't exceed the screen width */
+  }
+}
+
+.footer-links, .footer-contact {
+  margin-bottom: 2rem;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3px !important;
+  margin-top: 1rem;
+}
+
+
+.PUMNRDC {
+  padding-left: 0px;
+}

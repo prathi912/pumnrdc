@@ -1,0 +1,63 @@
+/* statistics.css */
+
+.user-reviews-container {
+  padding: 5rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.user-reviews-header {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: semi-bold !important  ;
+  color: black;
+}
+
+.underline {
+  width: 10%;
+  height: 4px;
+  background-color: #EE6043 !important;
+  margin: 0 auto 4rem auto;
+}
+
+.user-reviews-subheader {
+  font-weight: bolder !important;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.review-tile {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.review-tile:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.review-count {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.review-label {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: inherit;
+}
